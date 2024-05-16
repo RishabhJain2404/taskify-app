@@ -1,24 +1,112 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Taskify: A Trello-Inspired Project Management App**
+**Built with:** Next.js, React, TypeScript, Prisma, Supabase, PostgreSQL, Tailwind CSS, Clerk, and Stripe (for optional premium features)
 
-## Getting Started
+**Live Demo:** [Link to my deployed project](https://taskify-app-virid.vercel.app/)
 
-First, run the development server:
+## Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Collaboration:** Organize projects with teammates in dedicated workspaces.
+- **Boards & Lists:** Create and manage boards for different project stages. Organize tasks within boards using customizable lists with drag-and-drop functionality.
+- **Task Management:** Create, edit, delete, and reorder individual tasks within lists.
+- **Visual Appeal:** Enhance your project boards with beautiful cover images powered by the Unsplash API.
+- **Activity Tracking:** Maintain transparency with comprehensive activity logs for workspaces and individual boards.
+- **Member Roles:** Manage user permissions within workspaces by assigning member roles.
+- **Subscription-based Upgrades:** Offer premium features like unlimited boards through Stripe integration.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting Started:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone [https://github.com/](https://github.com/)<your-username>/taskify.git
+
+
+2. **Install dependencies:**
+
+   ```bash
+   cd taskify
+   npm install
+
+   
+3. **Set Up Environment Variables:**
+
+- Create a .env.local file in the project root.
+- Add any environment variables your project requires (e.g., database connection details, API keys).
+
+
+4. **Run the Development Server:**
+
+    ```bash
+    npm start
+
+This will start the development server on `http://localhost:3000` by default.
+
+## Walkthrough:
+
+
+### 1. Landing Page:
+
+- **Effortless Project Management:** Introducing Taskify, your one-stop app for organizing projects and boosting teamwork.
+- **Streamline Workflows:** Create boards, lists, and manage tasks with ease, all in a user-friendly interface.
+- **Get Started Now:** Sign up for free and experience the power of organized collaboration.
+- Optionally, showcase a captivating screenshot of the application in action. [Image Placeholder for Landing Page]
+
+### 2. Sign Up/Login:
+
+- Allow users to create new accounts or log in with existing credentials using Clerk.
+- Implement secure authentication practices.
+
+### 3. Organization Creation:
+
+- A popup guides users through creating their initial organization upon first sign up.
+
+### 4. Organization Page:
+
+- Displays the organization name and account type (free/pro).
+- Sidebar lists all associated workspaces.
+- Displays boards within the current organization.
+[Image Placeholder for Organization Page]
+
+### 5. Workspaces:
+
+- Provides a central hub for managing projects within the workspace.
+- Offers tabs for:
+  - **Boards:** Lists all boards associated with the workspace. [Image Placeholder for Workspace Boards Tab]
+  - **Activity:** Displays activity logs for the workspace.
+  - **Settings:**
+    - Allows viewing and managing organization members.
+    - Enables inviting new members and managing invitations.
+    - Provides options to leave or delete the organization.
+  - **Billing:**
+    - For free accounts (limited to 5 boards), offers an upgrade option to unlock unlimited boards.
+    - For pro accounts, allows managing subscriptions and payment details using Stripe. [Image Placeholder for Workspace Billing Tab]
+
+### 6. Create Board Popup:
+
+- Appears when users create a new board.
+- Offers options to select a cover image (powered by Unsplash API) and name the board.
+
+### 7. Board Page:
+
+- Displays the board title, cover image, and associated lists with cards.
+- Enables users to:
+  - Rename the board title.
+  - Delete the board.
+  - Create new lists.
+  - Create cards within lists.
+[Image Placeholder for Board Page]
+
+### 8. List Management:
+- Create, copy, or delete lists.
+- Drag and drop lists to reorder them.
+
+### 9. Card Management:
+- Create cards within a list.
+- Delete cards.
+- Copy cards for duplication.
+- Rename cards.
+- Drag and drop cards within a list or across lists.
+- View and manage individual card details (description, audit logs).
 
 ## Learn More
 
