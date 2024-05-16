@@ -3,6 +3,8 @@
 
 **Live Demo:** [Link to my deployed project](https://taskify-app-virid.vercel.app/)
 
+![Screenshot (225)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/393c1e36-273d-4b22-822d-44eb46973fa1)
+
 ## Features:
 
 - **Collaboration:** Organize projects with teammates in dedicated workspaces.
@@ -49,7 +51,8 @@ This will start the development server on `http://localhost:3000` by default.
 - **Effortless Project Management:** Introducing Taskify, your one-stop app for organizing projects and boosting teamwork.
 - **Streamline Workflows:** Create boards, lists, and manage tasks with ease, all in a user-friendly interface.
 - **Get Started Now:** Sign up for free and experience the power of organized collaboration.
-- Optionally, showcase a captivating screenshot of the application in action. [Image Placeholder for Landing Page]
+
+![Screenshot (225)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/393c1e36-273d-4b22-822d-44eb46973fa1)
 
 ### 2. Sign Up/Login:
 
