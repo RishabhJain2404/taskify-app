@@ -1,4 +1,4 @@
-# **Taskify: A Trello-Inspired Project Management App**
+# **Taskify: A Project Management App**
 **Built with:** Next.js, React, TypeScript, Prisma, Supabase, PostgreSQL, Tailwind CSS, Clerk, and Stripe (for optional premium features)
 
 **Live Demo:** [Link to my deployed project](https://taskify-app-virid.vercel.app/)
@@ -15,33 +15,6 @@
 - **Member Roles:** Manage user permissions within workspaces by assigning member roles.
 - **Subscription-based Upgrades:** Offer premium features like unlimited boards through Stripe integration.
 
-## Getting Started:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/taskify.git
-
-
-2. **Install dependencies:**
-
-   ```bash
-   cd taskify
-   npm install
-
-   
-3. **Set Up Environment Variables:**
-
-- Create a .env.local file in the project root.
-- Add any environment variables your project requires (e.g., database connection details, API keys).
-
-
-4. **Run the Development Server:**
-
-    ```bash
-    npm start
-
-This will start the development server on `http://localhost:3000` by default.
 
 ## Walkthrough:
 
@@ -122,6 +95,34 @@ This will start the development server on `http://localhost:3000` by default.
 - View and manage individual card details (description, audit logs).
 
 ![Screenshot (237)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/69ad7c92-bc07-4a26-a6e1-ab68b4889390)
+
+## Getting Started:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone [https://github.com/](https://github.com/)<your-username>/taskify.git
+
+
+2. **Install dependencies:**
+
+   ```bash
+   cd taskify
+   npm install
+
+   
+3. **Set Up Environment Variables:**
+
+- Create a .env.local file in the project root.
+- Add any environment variables your project requires (e.g., database connection details, API keys).
+
+
+4. **Run the Development Server:**
+
+    ```bash
+    npm start
+
+This will start the development server on `http://localhost:3000` by default.
 
 ## Learn More
 
