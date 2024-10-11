@@ -52,15 +52,27 @@
 
 - Provides a central hub for managing projects within the workspace.
 - Offers tabs for:
-  - **Boards:** Lists all boards associated with the workspace. ![Screenshot (230)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/8decdae6-6f5f-4bcf-80b9-e65a661284ae)
-  - **Activity:** Displays activity logs for the workspace. ![Screenshot (231)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/e2897a41-3aa1-4391-a63b-8c08d9646dd3)
+  - **Boards:** Lists all boards associated with the workspace.
+  
+![Screenshot (230)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/8decdae6-6f5f-4bcf-80b9-e65a661284ae)
+  
+  - **Activity:** Displays activity logs for the workspace.
+
+![Screenshot (231)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/e2897a41-3aa1-4391-a63b-8c08d9646dd3)
+
   - **Settings:**
     - Allows viewing and managing organization members.
     - Enables inviting new members and managing invitations.
-    - Provides options to leave or delete the organization. ![Screenshot (232)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/6df5d521-9b70-4f37-b531-64f37149074a)
+    - Provides options to leave or delete the organization.
+
+![Screenshot (232)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/6df5d521-9b70-4f37-b531-64f37149074a)
+
   - **Billing:**
     - For free accounts (limited to 5 boards), offers an upgrade option to unlock unlimited boards.
-    - For pro accounts, allows managing subscriptions and payment details using Stripe. ![Screenshot (233)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/bebb08a6-f694-42b2-adcb-077bea202dfb)
+    - For pro accounts, allows managing subscriptions and payment details using Stripe.
+
+![Screenshot (233)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/bebb08a6-f694-42b2-adcb-077bea202dfb)
+
 
 ### 6. Create Board Popup:
 
@@ -96,33 +108,7 @@
 
 ![Screenshot (237)](https://github.com/RishabhJain2404/taskify-app/assets/127675963/69ad7c92-bc07-4a26-a6e1-ab68b4889390)
 
-## Getting Started:
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/taskify.git
-
-
-2. **Install dependencies:**
-
-   ```bash
-   cd taskify
-   npm install
-
-   
-3. **Set Up Environment Variables:**
-
-- Create a .env.local file in the project root.
-- Add any environment variables your project requires (e.g., database connection details, API keys).
-
-
-4. **Run the Development Server:**
-
-    ```bash
-    npm start
-
-This will start the development server on `http://localhost:3000` by default.
 
 ## Learn More
 
